@@ -17,15 +17,7 @@ msgstr ""
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
-"This is your Freifunk node's public key. The node won't be able to "
-"connect to the mesh VPN until the key has been registered on the Freifunk Luxembourg servers. "
-"To register the key send it together with your node's name (<em><%=hostname%></em>) to "
-"<a href=\"mailto:vpn@luxembourg.freifunk.net?Subject=New%20Freifunk%20Lux%20node"
-"%20<%=hostname%>&Body=The%20following%20Freifunk%20node%20has%20been%20set%20up%20and%20is"
-"%20waiting%20for%20its%20activation%3A%20%0A%0A%23%20<%=hostname%>%0Akey%20%22<%=pubkey%>"
-"%22%3B\">vpn@luxembourg.freifunk.net</a>."
-"If you have already submitted your key to us and only see this page because you"
-"changed something in config mode, you do not need to send your key to us again."
+
 
 msgid "gluon-config-mode:reboot"
 msgstr ""

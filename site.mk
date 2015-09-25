@@ -53,5 +53,5 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 GLUON_PRIORITY ?= 0
 
 # Languages to include
-GLUON_LANGS ?= en de
+GLUON_LANGS ?= en de fr
 
