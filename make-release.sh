@@ -8,9 +8,9 @@
 ## properly configured in this script.
 
 # if version is unset, will use the default experimental version from site.mk
-VERSION=0.3
+VERSION=0.4
 # branch must be set to either experimental, beta or stable
-BRANCH=stable
+BRANCH=experimental
 
 cd ..
 if [ ! -d "site" ]; then
@@ -20,7 +20,7 @@ fi
 
 rm build.log
 rm -r images
-for TARGET in  ar71xx-generic ar71xx-nand mpc85xx-generic x86-generic x86-kvm_guest
+for TARGET in  ar71xx-generic ar71xx-nand brcm2708-bcm2708 brcm2708-bcm2709 mpc85xx-generic sunxi x86-64 x86-generic x86-kvm_guest x86-xen_domu
 do
 	if [ -z "$VERSION" ]
 	then
