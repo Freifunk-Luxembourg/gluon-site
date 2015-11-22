@@ -8,7 +8,7 @@
 ## properly configured in this script.
 
 # if version is unset, will use the default experimental version from site.mk
-VERSION=1.0~exp20151115
+VERSION=1.0~exp20151122
 # branch must be set to either experimental, beta or stable
 BRANCH=experimental
 
