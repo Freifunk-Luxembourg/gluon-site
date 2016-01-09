@@ -19,8 +19,7 @@ msgstr ""
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
-"Ceci est la clé privée de ton noeud. Antérieurement cette clé a du être "
-"transmis aux administrateurs Freifunk. Entretemps ceci n'est plus nécessaire."
+""
 
 msgid "gluon-config-mode:reboot"
 msgstr ""
