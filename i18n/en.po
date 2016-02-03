@@ -17,7 +17,9 @@ msgstr ""
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
-"" 
+"This is your Freifunk node's public key. In previous versions this key "
+"needed to be send to the Freifunk administrators. This is no longer "
+"necessary." 
 
 msgid "gluon-config-mode:reboot"
 msgstr ""
