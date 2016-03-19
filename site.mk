@@ -26,6 +26,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-respondd \
         gluon-setup-mode \
 	gluon-status-page \
+	gluon-ssid-changer \
 	iwinfo \
 	iptables \
 	haveged
