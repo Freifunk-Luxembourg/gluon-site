@@ -20,9 +20,7 @@ msgstr ""
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
-"Dies ist der öffentliche Schlüssel deines Freifunk-Knotens. In frühreren "
-"Versionen musste dieser Schlüssel noch an die Freifunk Administratoren "
-"gesendet werden, dies ist inzwischen nicht mehr notwendig."
+"<!-- empty -->"
 
 msgid "gluon-config-mode:reboot"
 msgstr ""
