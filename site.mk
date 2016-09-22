@@ -52,6 +52,9 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
 
+# set mesh mode for ath10k to 802.11s
+GLUON_ATH10K_MESH ?= 11s
+
 # Languages to include
 GLUON_LANGS ?= en de fr
 
