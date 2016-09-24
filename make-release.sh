@@ -10,11 +10,11 @@
 ## properly configured in this script.
 
 # if version is unset, will use the default experimental version from site.mk
-VERSION=${3:-"1.2~exp$(date '+%Y%m%d')"}
+VERSION=${2:-"1.2~exp$(date '+%Y%m%d')"}
 # branch must be set to either experimental, beta or stable
-BRANCH=${2:-"experimental"}
+BRANCH=${1:-"experimental"}
 # must point to valid ecdsa signing key created by ecdsakeygen, relative to Gluon base directory
-SIGNING_KEY=${1:-"../ecdsa-key-secret"}
+SIGNING_KEY=${3:-"../ecdsa-key-secret"}
 
 cd ..
 if [ ! -d "site" ]; then
