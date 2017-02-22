@@ -58,3 +58,4 @@ GLUON_ATH10K_MESH ?= 11s
 # Languages to include
 GLUON_LANGS ?= en de fr
 
+GLUON_REGION := eu
