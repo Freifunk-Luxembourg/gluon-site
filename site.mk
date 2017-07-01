@@ -15,18 +15,17 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-core \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
-	gluon-luci-admin \
-	gluon-luci-autoupdater \
-	gluon-luci-portconfig \
-	gluon-luci-wifi-config \
-	gluon-luci-private-wifi \
-	gluon-next-node \
+	gluon-web-admin \
+	gluon-web-autoupdater \
+	gluon-web-wifi-config \
+	gluon-web-private-wifi \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-respondd \
         gluon-setup-mode \
 	gluon-status-page \
 	gluon-ssid-changer \
+	respondd-module-airtime \
 	iwinfo \
 	iptables \
 	haveged
@@ -36,7 +35,8 @@ GLUON_SITE_PACKAGES := \
 #		gluon relies on
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
-DEFAULT_GLUON_RELEASE := 1.0~exp$(shell date '+%Y%m%d')
+#DEFAULT_GLUON_RELEASE := 2.1~exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 2.1.0
 
 
 ##	GLUON_RELEASE
@@ -56,6 +56,6 @@ GLUON_PRIORITY ?= 0
 GLUON_ATH10K_MESH ?= 11s
 
 # Languages to include
-GLUON_LANGS ?= en de fr
+GLUON_LANGS ?= en
 
 GLUON_REGION := eu

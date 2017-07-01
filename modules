@@ -1,3 +1,4 @@
-GLUON_SITE_FEEDS="fflux"
-PACKAGES_FFLUX_REPO=https://github.com/freifunk-luxembourg/packages.git
-PACKAGES_FFLUX_COMMIT=3f678cb9cf9e705bae2cc5cdce99894f4d010824
+GLUON_SITE_FEEDS="ssidchanger"
+PACKAGES_SSIDCHANGER_REPO=https://github.com/Freifunk-Nord/gluon-ssid-changer.git
+PACKAGES_SSIDCHANGER_COMMIT=ff9a7c4553a0fae87afe052210ed01b66cd54f6b
+PACKAGES_SSIDCHANGER_BRANCH=lede
