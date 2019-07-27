@@ -37,7 +37,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 #DEFAULT_GLUON_RELEASE := sid~exp$(shell date '+%Y%m%d')
-DEFAULT_GLUON_RELEASE := 2.2.0~exp20190205
+DEFAULT_GLUON_RELEASE := 2.2.0~exp20190717
 
 
 ##	GLUON_RELEASE
